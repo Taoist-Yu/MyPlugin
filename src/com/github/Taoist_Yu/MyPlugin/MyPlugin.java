@@ -12,6 +12,6 @@ public final class MyPlugin extends JavaPlugin {
 	@Override
 	public void onDisable() {
 		getLogger().info("插件成功退出！");
-	}//
+	}
 	
 }
