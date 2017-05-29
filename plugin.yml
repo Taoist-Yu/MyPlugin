@@ -1,0 +1,3 @@
+name: MyPlugin
+main: com.github.Taoist_Yu.MyPlugin.MyPlugin
+version: 1.0.0
