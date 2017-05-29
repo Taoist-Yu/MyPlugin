@@ -1,17 +1,29 @@
 package com.github.Taoist_Yu.MyPlugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 
 public final class MyPlugin extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		getLogger().info("²å¼ş¼ÓÔØ³É¹¦£¡");
+		getLogger().info("æ’ä»¶åŠ è½½æˆåŠŸï¼");
 	}
 	
 	@Override
 	public void onDisable() {
-		getLogger().info("²å¼ş³É¹¦ÍË³ö£¡");
+		getLogger().info("æ’ä»¶æˆåŠŸé€€å‡ºï¼");
+	}
+	
+	@Override
+	public boolean onCommand(CommandSender Sender, Command cmd, String CommandLable, String[] args) {
+		if(cmd.getName().equalsIgnoreCase("testCommand")) {
+			getLogger().info("æŒ‡ä»¤è¢«è§¦å‘");
+			return true;
+		}
+		
+		return false;
 	}
 	
 }
