@@ -11,6 +11,7 @@ public final class MyPlugin extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		getLogger().info("插件加载成功！");
+		getServer().getPluginManager().registerEvents(new MyPlayerListener(this),this);
 	}
 	
 	@Override
@@ -28,7 +29,7 @@ public final class MyPlugin extends JavaPlugin {
 				return false;
 			} 
 			
-			Player target = Bukkit.getServer().getPlayer(args[0]);
+			Player target =  Bukkit.getServer().getPlayer(args[0]);
 			
 			if(target == null) {
 				Sender.sendMessage("无法找到" + args[0]);
