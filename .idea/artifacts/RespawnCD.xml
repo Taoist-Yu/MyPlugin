@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RespawnCD">
+    <output-path>$PROJECT_DIR$/out/artifacts/RespawnCD</output-path>
+    <root id="archive" name="RespawnCD.jar">
+      <element id="module-output" name="RespawnCD" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

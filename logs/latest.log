@@ -1,0 +1,24 @@
+[13:12:00] [main/INFO]: Loaded 0 recipes
+[13:12:00] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[13:12:00] [Server thread/INFO]: Loading properties
+[13:12:00] [Server thread/WARN]: server.properties does not exist
+[13:12:00] [Server thread/INFO]: Generating new properties file
+[13:12:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: ¾ä±úÎÞÐ§¡£
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_191]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_191]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_191]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_191]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[craftbukkit.jar:git-Bukkit-a5b9c7b]
+	at net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:92) [craftbukkit.jar:git-Bukkit-a5b9c7b]
+[13:12:00] [Server thread/WARN]: Failed to load eula.txt
+[13:12:00] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[13:12:00] [Server thread/INFO]: Stopping server
+[13:12:00] [Server thread/INFO]: Saving worlds
